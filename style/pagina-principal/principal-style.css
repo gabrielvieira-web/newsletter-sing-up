@@ -31,8 +31,7 @@
 
 
 .formulario__campo {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     margin-top: 2.5rem;
 }
 
@@ -44,11 +43,27 @@
     height: 60px;
     font-size: 1.2rem;
     border-radius: 10px;
-    margin: 10px 0 30px 0;
+    margin: 10px 0;
     color: var(--cor-cinza-claro);
     border: 1px solid var(--cor-cinza-claro);
     padding-left: 20px;
     outline: none;
+}
+
+.mensagem-erro {
+    color: var(--cor-primaria);
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.estado-de-erro {
+    background-color: hsl(4, 76%, 92%);
+    border: 2px solid var(--cor-primaria);
+    color: var(--cor-primaria);
+}
+
+.estado-de-erro::placeholder {
+    color: var(--cor-primaria);
 }
 
 .formulario__campo__email:focus {

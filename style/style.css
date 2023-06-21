@@ -5,7 +5,7 @@
 }
 
 :root {
-    --cor-primaria: hsl(4, 100%, 67%);
+    --cor-primaria: hsl(4, 100%, 67%); background-color: hsl(4, 76%, 92%);
     --cor-secundaria: hsl(234, 29%, 20%);
     --cor-terciaria: hsl(233, 18%, 29%);
     --cor-cinza-claro: hsl(231, 7%, 60%);

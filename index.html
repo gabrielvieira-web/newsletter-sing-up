@@ -21,8 +21,10 @@
         <form class="formulario" data-formulario>
           <fieldset class="formulario__campo">
             <p class="formulario__campo__texto">Endereço de Email</p>
-            <input type="email" name="email" id="email" class="formulario__campo__email" placeholder="email@empresa.com" required>
-            <input type="submit" value="Subscrever o boletim informativo mensal" class="formulario__campo__botao">
+            <input type="email" name="email" id="email" class="formulario__campo__email" placeholder="email@empresa.com" minlength="4" required data-email>
+            <p class="mensagem-erro" data-mensagem-erro></p>
+
+            <input type="submit" value="Subscrever o boletim informativo mensal" class="formulario__campo__botao" data-botao-enviar>
           </fieldset>
         </form>
       </section>
@@ -30,5 +32,6 @@
           <img src="assets/images/illustration-sign-up-mobile.svg" alt="imagem de fundo" class="container__imagem">
       </section>
     </section>
+    <script src="js/main.js"></script>
 </body>
 </html>
