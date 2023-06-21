@@ -34,7 +34,7 @@ span {
     background-color: var(--cor-secundaria);
     color: var(--cor-branca);
     border: none;
-    padding: 20px;
+    height: 60px;
     border-radius: 10px;
     font-size: 15px;
     cursor: pointer;
