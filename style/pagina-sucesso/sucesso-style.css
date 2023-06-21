@@ -3,7 +3,6 @@
     color: var(--cor-secundaria);
     display: flex;
     flex-direction: column;
-    justify-content: end;
     gap: 6rem;    
     padding: 10% 5%;
     height: 100vh;
