@@ -2,6 +2,7 @@ const formulario = document.querySelector("[data-formulario]");
 const email = document.querySelector("[data-email]");
 const botaoEnviar = document.querySelector("[data-botao-enviar]");
 const campoDeErro = document.querySelector("[data-mensagem-erro]");
+const imagem = document.querySelector("[data-imagem]");
 
 formulario.addEventListener("submit", (e) => {
     e.preventDefault();

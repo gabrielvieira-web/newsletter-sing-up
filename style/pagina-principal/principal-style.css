@@ -96,6 +96,10 @@
     width: 100%;
 }
 
+.imagem-desktop {
+    display: none;
+}
+
 @media screen and (min-width: 1440px) {
     body {
         padding: 14rem;
@@ -133,5 +137,13 @@
 
     .formulario__campo__email {
         margin: 10px 0;
+    }
+
+    .imagem-desktop {
+        display: block;
+    }
+
+    .imagem-mobile {
+        display: none;
     }
 }
